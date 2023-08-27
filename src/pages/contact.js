@@ -1,51 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import "../styles/contact.css"
 
-const contact = () => {
+function ContactForm() {
+  const [messageSent, setMessageSent] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    try {
+      const templateParams = {
+        name: e.target.name.value,
+        phone:e.target.mobile.value,
+        email: e.target.email.value,
+        message: e.target.message.value,
+      };
+
+      await emailjs.send('service_psxb1rc', 'template_umz4fqj', templateParams, 'PIu9I0Aar4i-ETK0F');
+      setMessageSent(true);
+      setErrorMessage(false);
+      e.target.reset();
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setMessageSent(false);
+      setErrorMessage(true);
+    }
+  };
+
   return (
-  <>
-    <div>contact</div>
-    <section className="contact" id="contact">
-  
-  <h2 className="heading"><i className="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    
+      <div className="contact-form">
+      <h2>Contact</h2>
+      <form onSubmit={sendEmail}>
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
 
-  <div className="container">
-    <div className="content">
-      <div className="image-box">
-        <image draggable="false" src="./assets/images/contact1.png" alt=""></image>
-      </div>
-    <form id="contact-form">
-      
-      <div className="form-group">
-        <div className="field">
-          <input type="text" name="name" placeholder="Name" required></input>
-          <i className='fas fa-user'></i>
-        </div>
-        <div className="field">
-          <input type="text" name="email" placeholder="Email" required></input>
-          <i className='fas fa-envelope'></i>
-        </div>
-        <div className="field">
-          <input type="text" name="phone" placeholder="Phone"></input>
-          <i className='fas fa-phone-alt'></i>
-        </div>
-        <div className="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i className="fas fa-comment-dots"></i>
-        </div>
-        </div>
-      <div className="button-area">
-        <button type="submit">
-          Submit <i className="fa fa-paper-plane"></i></button>
-      </div>
-    </form>
-  </div>
-  </div>
-</section>
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label htmlFor="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" required /><br />
 
- 
-</>
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br />
 
-  )
+        <button type="submit">Send</button>
+      </form>
+      {messageSent && <p className="success-message">Email sent successfully!</p>}
+     {errorMessage && <p className="error-message">An error occurred while sending the email.</p>}
+    </div>
+  );
 }
 
-export default contact;
+export default ContactForm;
