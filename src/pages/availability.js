@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/availability.css"
 import "../images/basmati.jpg"
 const items = [
-    { id: 1, imageUrl: '' },
+    { id: 1, imageUrl: '../images/basmati.jpg' },
     { id: 2, imageUrl: 'path_to_image_1.jpg' },
     { id: 3, imageUrl: 'path_to_image_1.jpg' },
     { id: 4, imageUrl: 'path_to_image_1.jpg' },

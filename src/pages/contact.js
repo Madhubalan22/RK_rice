@@ -42,22 +42,6 @@ const contact = () => {
   </div>
 </section>
 
-$(document).ready(function () {
-$("#contact-form").submit(function (event) {
-        emailjs.init('PIu9I0Aar4i-ETK0F');
-
-        emailjs.sendForm('service_psxb1rc', 'template_umz4fqj', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    })
-  });
  
 </>
 
