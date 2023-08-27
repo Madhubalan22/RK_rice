@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 4-column grid */
+    gap: 20px; /* Adds spacing between grid items */
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
