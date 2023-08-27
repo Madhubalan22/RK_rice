@@ -1,14 +1,46 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Creates a 4-column grid */
-    gap: 20px; /* Adds spacing between grid items */
-    padding: 20px;
+    gap: 80px; /* Adds spacing between grid items */
+    padding: 50px;
+   margin: 0 auto;
+   max-width: 920px;
   }
   
   .grid-item {
     background-color: #f0f0f0;
-    padding: 100px;
-    border-radius: 8px;
+    padding: 3px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .grid-item img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    max-height: 100%; /* Prevent image from being taller than its container */
+    display: auto; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image within its container */
+  }
+  .grid-item h3{
+    text-align: center;
+  }
+  .grid-item:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+  }
+  .available{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  .available:hover{
+    transform: scale(1.2);
+  }
+  .whole{
+   /* background-image: url(../images/availablebg.mp4);  */
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    background-size: cover;
+    padding: 0;
+     background: black; 
   }
   
