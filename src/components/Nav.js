@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef } from 'react';
 import {FaBars,FaTimes} from "react-icons/fa";
 import "../styles/nav.css";
+import logo from "../images/logomerged.png"
 
 function Nav() {
 
@@ -14,7 +15,7 @@ function Nav() {
   return (
     
     <header>
-        <img src="src\images\logomerged.png" />
+        <img src={logo} style={{width:"380px",height:"178px"}} />
         <nav ref={navRef}>
             <a href="#">Home</a>
             <a href="#">Services</a>

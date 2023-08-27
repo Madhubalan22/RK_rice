@@ -4,14 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
     font-family: 'Titillium Web', sans-serif;;
 }
 
 :root{
-   --mainColor:#29335C;
+   --mainColor:#8995c3;
    --mainColorLight:#5767aa;
    --secondaryColor:#DB2B39;
-   --textColor:#eee;
+   --textColor:#030000;
 }
 
 header{
@@ -28,6 +29,7 @@ nav a{
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+    font-size:1.3rem;
 }
 
 nav a:hover
@@ -86,7 +88,7 @@ header .nav-btn{
     }
 
     nav a{
-        font-size: 1.5rem;
+        font-size:2rem;
     }
 
     
