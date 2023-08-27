@@ -1,10 +1,10 @@
 import React from 'react'
+import Nav from "./Nav";
 
 const home = () => {
   return (
     <div>
-        <h1>home</h1>
-    <   h1>home</h1>
+        <Nav/>
     </div>
     
   )
