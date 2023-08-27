@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/availability.css"
+// import { Element } from 'react-scroll';
 import basmati from "../images/basmati.jpg"
 import redrice from "../images/redrice.jpg"
 import ponni from "../images/ponni.jpg"
@@ -42,6 +43,8 @@ const availability = () => {
   return (
  <div className='whole'>
   <h1 className='available'> Rices Available</h1>
+  
+
     <div className='grid-container'>
    
  {items.map(item => (
@@ -50,6 +53,7 @@ const availability = () => {
            <h3 className="image-text">{item.text}</h3>
         </div>
       ))}
+     
     </div>
     <h1 className='available'>Gallery</h1>
     <div className='grid-container'>
