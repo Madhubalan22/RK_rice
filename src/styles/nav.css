@@ -48,10 +48,6 @@ header .nav-btn{
     opacity: 0;
     font-size: 1.8rem;
 }
-.logo{
-    z-index: 2;
-    
-}
 
 @media only screen and (max-width: 1024px)
 {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Iframe from "react-iframe";
 import Nav from "../components/Nav";
+import Footer from "../components/footer";
 import "../styles/contact.css";
 
 function ContactForm() {
@@ -77,6 +78,7 @@ function ContactForm() {
         position="relative"
       />
     </div>
+    <Footer />
       
     </>
   );
