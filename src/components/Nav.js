@@ -17,10 +17,10 @@ function Nav() {
     <header>
         <img src={logo} style={{width:"380px",height:"178px"}} />
         <nav ref={navRef}>
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="/">Home</a>
+            <a href="/avalability">Services</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
             <button  className="nav-btn nav-close-btn" onClick={showNavbar}>  
                <FaTimes/>
             </button>
