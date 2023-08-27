@@ -43,4 +43,37 @@
     padding: 0;
      background: black; 
   }
+  .App {
+    text-align: center;
+  }
   
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: background-color 0.5s;
+  }
+  
+  .section:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  
+  
+  
+  
+  
+ /* this is for mobile view */
+  
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* Two columns */
+    }
+  }
+
