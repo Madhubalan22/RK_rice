@@ -1,6 +1,6 @@
 import i1 from "./different-rice.jpg"
 import i2 from "./template-1.jpg"
-import i3 from "./template-2.jpg"
+import i3 from "./finalrk.png"
 import i4 from "./banner.jpg"
 
 const data=[

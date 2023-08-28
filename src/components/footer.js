@@ -6,7 +6,7 @@ import '../styles/footer.css'; // Create this CSS file for styling if needed
 function Footer() {
   return (
     <footer className="footer">
-  	 <div className="container">
+  	 <div className="container-footer">
   	 	<div className="row">
   	 		<div className="footer-col">
   	 			<h4>About</h4>
@@ -15,22 +15,20 @@ function Footer() {
           </p>
   	 		</div>
   	 		<div className="footer-col">
-  	 			<h4>get help</h4>
-  	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
-  	 			</ul>
+  	 			<h4>Address</h4>
+				<h3>RK Ricemill</h3>
+				<p>K.Rajendran<br></br>Main Road<br/>Bhujankarayanallur<br/>Ariyalur<br/>621713</p>
+  	 			
   	 		</div>
   	 		<div className="footer-col">
-  	 			<h4>online shop</h4>
+  	 			<h4>Contact</h4>
   	 			<ul>
-  	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
+  	 				<li><a href="#"><i class="fa-solid fa-phone"></i>9578299777</a></li>
+					<li><a href="#">9788852165</a></li>
+					<li><a href="#">9962577109</a></li>
+  	 				<li><a href="#">contact@rkricemill.com</a></li>
+  	 				
+  	 				
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
