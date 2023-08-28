@@ -1,10 +1,10 @@
 import React from 'react'
-import Aboutcard from './AboutCard'
+import "../styles/about.css"
 
 const about = () => {
   return (
     <div>
-       <Aboutcard/>
+       about
     </div>
   )
 }
