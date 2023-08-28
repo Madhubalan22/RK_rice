@@ -37,7 +37,7 @@ function ContactForm() {
 
   return (
     <>
-      <Nav />
+      
         <div className="contact-form">
           <h2>Contact</h2>
           <form onSubmit={sendEmail}>

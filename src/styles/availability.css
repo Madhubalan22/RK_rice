@@ -30,13 +30,13 @@
   .available{
     text-align: center;
     margin-top: 20px;
-    color: white;
+    color: rgb(26, 5, 5);
   }
   .available:hover{
     transform: scale(1.2);
   }
   .para{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   .whole{
@@ -45,7 +45,7 @@
     margin-top: -20px;
     background-size: cover;
     padding: 0;
-     background: rgb(220, 77, 77); 
+     background: rgb(248, 248, 248); 
   }
   .App {
     text-align: center;
