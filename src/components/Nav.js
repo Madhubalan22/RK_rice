@@ -18,7 +18,7 @@ function Nav() {
         <img className='logo' src={logo} style={{width:"320px",height:"178px"}} />
         <nav ref={navRef}>
             <a href="/">Home</a>
-            <a href="/avalability">Services</a>
+            <a href="/service">Services</a>
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
             <button  className="nav-btn nav-close-btn" onClick={showNavbar}>  

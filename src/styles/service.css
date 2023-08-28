@@ -68,6 +68,16 @@
   .section:nth-child(even) {
     background-color: #e0e0e0;
   }
+  .footer{
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .footer h3{
+    color: black;
+  }
+
   
   
   
