@@ -10,8 +10,7 @@ function Footer() {
   	 	<div className="row">
   	 		<div className="footer-col">
   	 			<h4>About</h4>
-  	 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      
+				<p>RK Rice Mill, a trusted name in rice processing, delivers premium quality rice products. With state-of-the-art technology, we offer a wide range of processed rice over decades.
           </p>
   	 		</div>
   	 		<div className="footer-col">
@@ -23,10 +22,10 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>Contact</h4>
   	 			<ul>
-  	 				<li><a href="#"><i class="fa-solid fa-phone"></i>9578299777</a></li>
-					<li><a href="#">9788852165</a></li>
-					<li><a href="#">9962577109</a></li>
-  	 				<li><a href="#">contact@rkricemill.com</a></li>
+  	 				<li><a href="tel:9578299777"><i class="fa-solid fa-phone"> </i>  9578299777</a></li>
+					<li><a href="tel:9788852165"><i class="fa-solid fa-phone"> </i>  9788852165</a></li>
+					<li><a href="tel:9962577109"><i class="fa-solid fa-phone"> </i>  9962577109</a></li>
+  	 				<li><a href="mailto:contact@rkricemill.com">contact@rkricemill.com</a></li>
   	 				
   	 				
   	 			</ul>
@@ -34,10 +33,10 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<div className="social-links">
-  	 				<a href="#"><i className="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i className="fab fa-twitter"></i></a>
-  	 				<a href="#"><i className="fab fa-instagram"></i></a>
-  	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
+  	 				<a href="https://www.facebook.com/yugendranrajendran.r"><i className="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/madhubalan22_"><i className="fab fa-x-twitter"></i></a>
+  	 				<a href="mailto:contact@rkricemill.com"><i class="fa-regular fa-envelope"></i></a>
+  	 				<a href="https://wa.me/+919788852165"><i class="fa-brands fa-whatsapp"></i></a>
   	 			</div>
   	 		</div>
   	 	</div>
