@@ -22,6 +22,7 @@
   }
   .grid-item h3{
     text-align: center;
+    color: black;
   }
   .grid-item:hover{
     transform: scale(1.1);
@@ -67,6 +68,16 @@
   .section:nth-child(even) {
     background-color: #e0e0e0;
   }
+  .footer{
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .footer h3{
+    color: black;
+  }
+
   
   
   

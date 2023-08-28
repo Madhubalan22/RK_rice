@@ -66,7 +66,7 @@ p{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: white;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -84,6 +84,7 @@ p{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+	transform: scale(1.1);
 }
 
 /*responsive*/
