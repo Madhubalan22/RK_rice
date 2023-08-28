@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 
 import SliderApp from "./SliderApp";
-import Availability from "../pages/availability";
+import Availability from "../pages/service";
 import Contact from "../pages/contact";
 const home = () => {
   return (

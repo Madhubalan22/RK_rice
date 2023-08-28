@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/availability.css"
+import "../styles/service.css"
 // import { Element } from 'react-scroll';
 import basmati from "../images/basmati.jpg"
 import redrice from "../images/redrice.jpg"
