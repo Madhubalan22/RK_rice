@@ -23,6 +23,7 @@ ul{
 	background-color: #24262b;
 	height: auto;
     padding: 70px 0;
+	text-align: center;
 }
 .footer-col{
    width: 25%;
@@ -42,18 +43,21 @@ h3{
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left:0;
+	left:center;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
+	
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
 p{
     color: #bbbbbb;
+	align-items: center;
+	text-align: center;
 }
 .footer-col ul li a{
 	font-size: 16px;

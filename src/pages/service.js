@@ -97,9 +97,9 @@ const availability = () => {
         ))}
       </div>
 
-      <footer className='footer'>
-<h3>Copyright &copy; @ 2023</h3>
-      </footer>
+      
+
+      
 
     </div>
   )

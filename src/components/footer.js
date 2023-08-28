@@ -38,6 +38,7 @@ function Footer() {
   	 				<a href="mailto:contact@rkricemill.com"><i class="fa-regular fa-envelope"></i></a>
   	 				<a href="https://wa.me/+919788852165"><i class="fa-brands fa-whatsapp"></i></a>
   	 			</div>
+			    <p>&copy;2023 RK Ricemill</p>
   	 		</div>
   	 	</div>
   	 </div>
