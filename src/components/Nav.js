@@ -15,7 +15,7 @@ function Nav() {
   return (
     
     <header>
-        <img src={logo} style={{width:"380px",height:"178px"}} />
+        <img className='logo' src={logo} style={{width:"320px",height:"178px"}} />
         <nav ref={navRef}>
             <a href="/">Home</a>
             <a href="/avalability">Services</a>

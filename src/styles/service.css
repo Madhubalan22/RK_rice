@@ -22,10 +22,11 @@
   }
   .grid-item h3{
     text-align: center;
+    color: black;
   }
   .grid-item:hover{
     transform: scale(1.1);
-    background-color: aqua;
+    background-color: rgb(72, 45, 180);
   }
   .available{
     text-align: center;

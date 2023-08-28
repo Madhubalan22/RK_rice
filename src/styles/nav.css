@@ -20,7 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    padding: 0 2rem;
+    padding: 0 0rem;
     background-color: var(--mainColor);
     color: var(--textColor);
 }
@@ -51,9 +51,16 @@ header .nav-btn{
 
 @media only screen and (max-width: 1024px)
 {
+    .logo{
+        width: 150px;
+        height: 150px;
+        z-index: 5;
+    }
      header .nav-btn{
         visibility: visible;
         opacity: 1;
+        
+        
      }
 
      header nav{
@@ -66,12 +73,13 @@ header .nav-btn{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap:1.5rem;
+        gap:2rem;
         background-color: var(--mainColor);
         transition: 1s all;
-        transform: translateY(-100vh);
-        z-index: 4;
+        transform: translateY(-110vh);
+        z-index: 3;
     }
+    
 
     header .responsive_nav{
         transform: none;
@@ -81,9 +89,14 @@ header .nav-btn{
     {
      position: absolute;
      top:2rem;
-     right:2rem;
+     right:1rem;
+     
     }
-
+    header{
+        background-color: #8995c3;
+        width: 100%;
+        
+    }
     nav a{
         font-size:2rem;
     }
