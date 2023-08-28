@@ -70,6 +70,7 @@ header .nav-btn{
         background-color: var(--mainColor);
         transition: 1s all;
         transform: translateY(-100vh);
+        z-index: 4;
     }
 
     header .responsive_nav{
