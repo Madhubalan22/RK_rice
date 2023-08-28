@@ -52,7 +52,9 @@ export default class SliderApp extends Component {
   render() {
     return (
       <div className="App1">
+        <br/>
         <h1>Welcome to our  rice hub !!!</h1>
+        <br/>
         <div className="container">
             <div  className="slideshow-container">
               <Slider slideIndex={this.state.slideIndex}/>
