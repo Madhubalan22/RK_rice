@@ -1,4 +1,9 @@
-*{
-    background-color: black;
-    padding: 67px;
+
+
+.banner1{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(58, 55, 55, 0.75),rgba(35, 34, 34, 0.75)),url(../images/background.png);
+    
+    background-position: center;
 }

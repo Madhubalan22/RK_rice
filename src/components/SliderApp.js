@@ -53,7 +53,7 @@ export default class SliderApp extends Component {
     return (
       <div className="App1">
         <br/>
-        <h1>Welcome to our  rice hub !!!</h1>
+        <h1>Welcome to RK Rice</h1>
         <br/>
         <div className="container">
             <div  className="slideshow-container">

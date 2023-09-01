@@ -1,19 +1,20 @@
 import React from "react";
 import Nav from "./Nav";
-
+import "../styles/home.css";
 import SliderApp from "./SliderApp";
 import Availability from "../pages/service";
 import Contact from "../pages/contact";
 const home = () => {
   return (
-    <div>
-          <Nav/>
-          <SliderApp/>
-          <Availability/>
-          <Contact/>
-    </div>
-    
-  )
-}
+    <>
+      <Nav />
+      <div className="banner1">
+        <SliderApp />
+      </div>
 
-export default home
+      <Availability />
+      <Contact />
+    </>
+  );
+};
+export default home;
