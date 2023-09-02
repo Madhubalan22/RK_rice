@@ -2,7 +2,8 @@ import React from 'react'
 import { useRef } from 'react';
 import {FaBars,FaTimes} from "react-icons/fa";
 import "../styles/nav.css";
-import logo from "../images/logomerged.png"
+import logo from "../images/logomerged copy.png"
+
 
 function Nav() {
 

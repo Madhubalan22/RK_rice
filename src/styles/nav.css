@@ -12,7 +12,7 @@
    --mainColor:#af8049;
    --mainColorLight:#5767aa;
    --secondaryColor:#DB2B39;
-   --textColor:#030000;
+   --textColor:#D96846;
 }
 
 header{
@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     height: 80px;
     padding: 0 0rem;
-    background-color: var(--mainColor);
+    background-image: url(../images/backgroudnav.png);
     color: var(--textColor);
     
 }
