@@ -5,11 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     
-    font-family: 'Titillium Web', sans-serif;;
+    font-family: 'voltaire', sans-serif;;
 }
 
 :root{
-   --mainColor:#8995c3;
+   --mainColor:#af8049;
    --mainColorLight:#5767aa;
    --secondaryColor:#DB2B39;
    --textColor:#030000;
@@ -23,6 +23,7 @@ header{
     padding: 0 0rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    
 }
 
 nav a{

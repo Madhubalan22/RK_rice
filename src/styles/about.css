@@ -1,0 +1,65 @@
+.about{
+    margin-left:91px;
+    margin-top: 205px;
+}
+.about1{
+    width: 50%; /* Set the width of the left section */
+            float: left; /* Float the left section to the left */
+            background-color:transparent; /* Background color for the left section */
+            padding: 20px;
+            
+}
+.para{
+    margin-left: 91px;
+    text-align: left;
+    margin-top: 40px;
+}
+.rect {
+    width: 80%;
+    height: 390px;
+    background-color: rgb(136, 33, 33);
+    padding: 20px;
+    margin-left: 115%;
+    margin-top: -320px;
+    position: relative;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.rect1 {
+    width: 80%;
+    height: 400px;
+    margin-top: -350px;
+    margin-left: 114%;
+    background-image: url(../images/about1.jpg);
+    padding: 20px;
+    margin-top: -380px;
+    position: relative;
+    transition: transform 0.3s; /* Add a smooth transition effect for transform */
+}
+.rect1:hover {
+    transform: translate(20px, -32px); /* Move the .rect1 block diagonally to the top-right */
+}
+.container {
+    display: flex;
+    height: 300px; /* Use the full height of the viewport */
+    width: 100%;
+    margin-top: 45%;
+}
+
+/* Style for each half */
+.half {
+    flex: 1; /* Make both halves take equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D96846; /* Background color for the halves */
+    border: 1px solid #ccc; /* Add a border for separation (optional) */
+}
+.half1 {
+    flex: 1; /* Make both halves take equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the halves */
+    border: 1px solid #ccc; /* Add a border for separation (optional) */
+}
