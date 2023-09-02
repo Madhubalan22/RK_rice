@@ -14,7 +14,8 @@
     text-align: left;
     margin-top: 40px;
 }
-.rect {
+/* .rect 
+{
     width: 80%;
     height: 390px;
     background-color: rgb(136, 33, 33);
@@ -22,7 +23,7 @@
     margin-left: 115%;
     margin-top: -320px;
     position: relative;
-    transition: transform 0.3s; /* Add a smooth transition effect */
+    transition: transform 0.3s; 
 }
 
 .rect1 {
@@ -30,18 +31,53 @@
     height: 400px;
     margin-top: -350px;
     margin-left: 114%;
-    background-image: url(../images/about1.jpg);
     padding: 20px;
     margin-top: -380px;
     position: relative;
-    transition: transform 0.3s; /* Add a smooth transition effect for transform */
+    transition: transform 0.3s; 
 }
-.rect1:hover {
-    transform: translate(20px, -32px); /* Move the .rect1 block diagonally to the top-right */
+.rect1:hover .rect{
+    transform: translate(20px, -32px); 
+}
+*/
+
+.frame {
+    width:500px ;
+    height:350px;
+    left: 14px;
+    position: absolute;
+    background-color:#D96846;
+    transition: all 0.3s ease; 
+    transform: translate(-2px, 0px); 
+    z-index: -1;
+    margin-top: -348px;
+    
+    
+}
+
+.imageabout1{
+   margin-left: 23px;
+   margin-top: 50px;
+}
+
+.aboutwhole{
+    margin-left: 110%;
+    margin-top: -45%;
+}
+.imageabout {
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+.imageabout:hover .frame {
+    transform: translate(20px, -20px); 
+   
+    
 }
 .container {
     display: flex;
-    height: 300px; /* Use the full height of the viewport */
+    height: 370px; /* Use the full height of the viewport */
     width: 100%;
     margin-top: 45%;
 }
@@ -53,7 +89,8 @@
     justify-content: center;
     align-items: center;
     background-color: #D96846; /* Background color for the halves */
-    border: 1px solid #ccc; /* Add a border for separation (optional) */
+    /* Add a border for separation (optional) */
+
 }
 .half1 {
     flex: 1; /* Make both halves take equal space */
@@ -63,3 +100,34 @@
     background-color: #f0f0f0; /* Background color for the halves */
     border: 1px solid #ccc; /* Add a border for separation (optional) */
 }
+.box{
+    text-align: center;
+    margin-top: 30px;
+}
+.bp{
+    text-align: center;
+    word-spacing: 0.2em;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+.bp1{
+    text-align: center;
+    word-spacing: 0.2em;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+}
+.val1{
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 0.1em;
+}
+.val2{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
