@@ -10,7 +10,7 @@ const about = () => {
       <div className='about1'>
        <h1 className='about'>ABOUT US</h1>
        <p className='para'>
-       At RK Rice Mill, our passion for perfection in rice processing has been the cornerstone of our success for decades. As a trusted name in the industry, we have consistently delivered premium quality rice products that have become a staple in households around the world. Our commitment to excellence, paired with state-of-the-art technology, has made us a leader in the field of rice processing.
+       Established in 1996 by the visionary couple, Mr. Rajendran and Mrs. Kanthammal, RK Rice Mill has evolved into a trusted name in rice processing, marked by its unwavering commitment to delivering premium-quality rice products worldwide. From its humble beginnings reliant on manual labor, the mill has undergone a remarkable transformation, now boasting a fully automated facility equipped with specialized machinery for color sorting, husk separation, rice enrichment, and advanced heating systems. Through this journey, our focus on customer satisfaction has remained central, recognizing that our customers are the heart of our success. As we continue to innovate and uphold the highest standards of excellence, RK Rice Mill invites you to be part of a legacy that redefines quality and flavor in every grain of rice.
        </p>
        <div className='aboutwhole' >
         

@@ -1,18 +1,23 @@
 .about{
     margin-left:91px;
-    margin-top: 205px;
+    margin-top: 220px;
+    
 }
 .about1{
     width: 50%; /* Set the width of the left section */
             float: left; /* Float the left section to the left */
             background-color:transparent; /* Background color for the left section */
             padding: 20px;
+            margin-top: -8%;
+            
             
 }
 .para{
     margin-left: 91px;
     text-align: left;
     margin-top: 40px;
+    font-size: large;
+    font-family:Helvetica;
 }
 /* .rect 
 {
@@ -62,12 +67,13 @@
 
 .aboutwhole{
     margin-left: 110%;
-    margin-top: -45%;
+    margin-top: -59%;
 }
 .imageabout {
     width: 500px;
     height: 350px;
     position: relative;
+    opacity: 85%;
 }
 
 .imageabout:hover .frame {
