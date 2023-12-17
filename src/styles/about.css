@@ -1,9 +1,9 @@
-.about{
+#about{
     margin-left:91px;
     margin-top: 220px;
     
 }
-.about1{
+#about1{
     width: 50%; /* Set the width of the left section */
             float: left; /* Float the left section to the left */
             background-color:transparent; /* Background color for the left section */
@@ -12,10 +12,10 @@
             
             
 }
-.para{
-    margin-left: 91px;
-    text-align: left;
-    margin-top: 40px;
+#para{
+    
+    text-align: center;
+    color: black;
     font-size: large;
     font-family:Helvetica;
 }
@@ -46,7 +46,7 @@
 }
 */
 
-.frame {
+#frame {
     width:500px ;
     height:350px;
     left: 14px;
@@ -60,36 +60,31 @@
     
 }
 
-.imageabout1{
+#imageabout1{
    margin-left: 23px;
    margin-top: 50px;
 }
 
-.aboutwhole{
+#aboutwhole{
     margin-left: 110%;
     margin-top: -59%;
 }
-.imageabout {
+#imageabout {
     width: 500px;
     height: 350px;
     position: relative;
     opacity: 85%;
 }
 
-.imageabout:hover .frame {
+#imageabout:hover .frame {
     transform: translate(20px, -20px); 
    
     
 }
-.container {
-    display: flex;
-    height: 370px; /* Use the full height of the viewport */
-    width: 100%;
-    margin-top: 45%;
-}
+
 
 /* Style for each half */
-.half {
+#half {
     flex: 1; /* Make both halves take equal space */
     display: flex;
     justify-content: center;
@@ -98,7 +93,7 @@
     /* Add a border for separation (optional) */
 
 }
-.half1 {
+#half1 {
     flex: 1; /* Make both halves take equal space */
     display: flex;
     justify-content: center;
@@ -106,11 +101,11 @@
     background-color: #f0f0f0; /* Background color for the halves */
     border: 1px solid #ccc; /* Add a border for separation (optional) */
 }
-.box{
+#box{
     text-align: center;
     margin-top: 30px;
 }
-.bp{
+#bp{
     text-align: center;
     word-spacing: 0.2em;
     text-align: center;
@@ -118,7 +113,7 @@
     margin-right: 50px;
     color: white;
 }
-.bp1{
+#bp1{
     text-align: center;
     word-spacing: 0.2em;
     text-align: center;
@@ -126,12 +121,12 @@
     margin-right: 50px;
     color: black;
 }
-.val1{
+#val1{
     text-align: center;
     margin-top: 50px;
     word-spacing: 0.1em;
 }
-.val2{
+#val2{
     color: black;
     text-align: center;
     margin-top: 15px;

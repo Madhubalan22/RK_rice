@@ -38,6 +38,7 @@
   .para{
     color: rgb(0, 0, 0);
     text-align: center;
+    align-items: center;
   }
   .whole{
    /* background-image: url(../images/availablebg.mp4);  */

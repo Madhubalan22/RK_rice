@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import "../styles/slideapp.css"
 import Slider from "./Slider"
 import data from "../images/Imagedata"
-
 export default class SliderApp extends Component {
 
     constructor(props){
@@ -29,7 +28,7 @@ export default class SliderApp extends Component {
 
     componentDidMount()
     {
-        this.timer=setInterval(()=>this.autoPlay(),3000)
+        this.timer=setInterval(()=>this.autoPlay(),5000)
     }
 
     autoPlay()
@@ -53,7 +52,8 @@ export default class SliderApp extends Component {
     return (
       <div className="App1">
         <br/>
-        <h1>Welcome to RK Rice</h1>
+        <h1>Rooted in Tradition</h1>
+        <h2> Growing Quality for a Healthy Tomorrow.</h2>
         <br/>
         <div className="container">
             <div  className="slideshow-container">
