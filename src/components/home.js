@@ -9,11 +9,12 @@ const home = () => {
   return (
     <>
       <Nav />
-
+      <div style={{marginTop:"55px"}}></div>
       <SliderApp />
-     <section id="home">
+      
+     <section id="home"></section>
       <Availability />
-      </section>
+      
       <section id="about">
       <About></About></section>
       <section id="contact">
